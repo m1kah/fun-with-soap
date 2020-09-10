@@ -10,6 +10,10 @@ repositories {
 }
 
 dependencies {
+    // https://stackoverflow.com/questions/48204141/replacements-for-deprecated-jpms-modules-with-java-ee-apis/48204154
+    implementation 'jakarta.xml.ws:jakarta.xml.ws-api:2.3.3'
+    // https://stackoverflow.com/questions/47199846/unable-to-create-saaj-meta-factory-after-packaging-as-jar
+    implementation 'com.sun.xml.messaging.saaj:saaj-impl:1.5.1'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.2'
 }
 
