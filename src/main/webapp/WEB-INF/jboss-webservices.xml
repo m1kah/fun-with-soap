@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webservices version="1.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.jboss.com/xml/ns/javaee"
+             xsi:schemalocation="http://www.jboss.com/xml/ns/javaee http://www.jboss.org/schema/jbossas/jbossws-web-services_1_0.xsd">
+    <context-root>ws</context-root>
+    <port-component>
+        <ejb-name>CalculatorWebService</ejb-name>
+        <port-component-name>CalculatorWebServicePort</port-component-name>
+        <port-component-uri>/ws/calculator</port-component-uri>
+    </port-component>
+</webservices>
